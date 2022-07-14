@@ -1,0 +1,11 @@
+What is Git?
+•	git is a version control software.
+•	It keep track of code changes
+•	It helps to collaborate in a project.
+•	It is installed and maintained locally.
+•	It provides Command Line Interface (CLI).
+
+What is Github?
+•	GitHub is a hosting service where we can keep our git repositiory/folders
+•	It is maintained on cloud/web
+•	It provides Graphical User Interface (GUI)

@@ -1,0 +1,24 @@
+I want to clone a repository from Nur's github.
+I changed this repository and commit finally.
+I send pull request Nur's repository.
+He check my changed and merged the repository.
+
+Process:
+fork -> clone -> changed or work -> commit and push -> contribute -> open pull request -> create pull reauest
+
+From Nur github open repository which I want to clone.
+Click fork.
+Create fork. (Now nur repository come in my github)
+Clone the repository.
+I Changed with my necessary.
+Commit and push complete.
+contribute.
+open pull request.
+Create pull request.
+
+Recive pull request by Nur:
+open repository which I sended.
+He show a notification in pull request.
+click notification.
+check the change.
+If he satisfied merge file.

@@ -1,0 +1,25 @@
+Git commit & uncommit:
+	-> git commit -m "message here about commit" (move the file to local repository from stagging area)
+	-> git log (check the commit history)
+	-> git reset --soft HEAD^ (uncommit the commit in HEAD and move to staging area)
+	-> git reset HEAD^ (uncommit the commit in HEAD and move to unstaging / working area)
+	-> git reset --hard HEAD^ (uncommit the commit in HEAD and delete the commit completely with all the changes)
+
+Example:
+Since we have finished our work, we are ready move from stage to commit for our local repository.
+When we commit, we should always include a message.
+By adding clear messages to each commit, it is easy for yourself (and others) to see what has changed and when.
+	-> git commit -m " First commit of my Project”
+[master (root-commit) a67f05c] First commit of my Project
+ 3 files changed, 26 insertions(+)
+ create mode 100644 README.md.txt
+ create mode 100644 index.html
+ create mode 100644 style.css
+The commit command performs a commit, and the -m "message" adds a message.
+
+	-> Git Commit Log
+To view the history of commits for a repository, you can use the log command:
+commit a67f05ce2ef2a04974d5b23ab74a44bd279769ac (HEAD -> master)
+Author: Anamul Haque <anamh444@gmail.com>
+Date:   Mon Jul 11 10:58:39 2022 -0600
+    First commit of my Project

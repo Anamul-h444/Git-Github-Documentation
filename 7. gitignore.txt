@@ -1,0 +1,9 @@
+.gitignore:
+create a .gitignore file and add the things you do not want to add in the stagging area
+Inside .gitignore we can keep secret files, hidden files, temporary files, log files
+	-> secret.txt (secret.txt will be ignored)
+	-> *.txt (ignore all files with .txt extension)
+	-> !main.txt (ignore all files with .txt extension without .main.txt)
+	-> test?.txt (ignore all files like test1.txt test2.txt)
+	-> temp/ (all the files in temp folders will be ignored)
+	

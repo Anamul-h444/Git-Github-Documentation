@@ -1,0 +1,39 @@
+Staged files are files that are ready to be committed to the repository you are working on.
+Git staging envionment: 
+	-> git add fileName (add a file in staging area)
+	-> git add . (add all files of directory to stagging area not subdirectory)
+	-> git add -A or all (add all files of directory and subdirectory to stagging area)
+	-> git rm --cached fileName (unstage a file from staging area)
+	-> git diff (checking the what is changes of a staged file)
+	-> git restore fileName (changes restore/delete from the file)
+
+Example:
+For now, we are done working with index.html. So we can add it to the Staging Environment:
+	-> git add index.html
+
+The file should be Staged. Let's check the status:
+after check status:
+On branch master
+No commits yet
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+Now the file has been added to the Staging Environment.
+
+Git Add/Staging More than One File:
+You can also stage more than one file at a time. Let's add 2 more files to our working folder.
+#README.MD
+#style.css
+Now add all files in the current directory to the Staging Environment:
+	-> git add --all or git add.
+Using --all instead of individual filenames will stage all changes (new, modified, and deleted) files.
+
+After check status:
+On branch master
+No commits yet
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   README.md.txt
+        new file:   index.html
+        new file:   style.css
+Now all 3 files are added to the Staging Environment, and we are ready to do our first commit.

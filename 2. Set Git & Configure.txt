@@ -1,0 +1,23 @@
+
+Process of download git & check:
+	-> Download and install git on your PC. Download Link: https://git-scm.com/
+	-> check git version: open terminal or cmd then use the command git --version to find out whether git is installed or not. if git is installed it will return a version number of git.
+
+git configuration
+	-> check all configuartion options: git config
+
+Set global user name and user email for all repository/git folders (if you want to set different username and email for different git repository then remove --global)
+	-> set global user name: git config --global user.name "anamul haque"
+	-> set global user email: git config --global user.email "anamh444@gmail.com"
+
+list of all git configuration:
+	-> list of all the configuration: git config --list
+	-> list of user name: git config user.name
+	-> list of user email: git config user.email
+
+change global username & email
+	->change global user name: git config --global user.name "PUT_NEW_USER_NAME_HERE"
+	-> change global user email: git config --global user.email "PUT_NEW_USER_EMAIL_HERE"
+
+
+

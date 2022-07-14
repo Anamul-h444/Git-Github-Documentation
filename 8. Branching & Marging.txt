@@ -1,0 +1,94 @@
+Branching & marging:
+Branch is a new and separate branch of master/main repository.
+When create new branch he is copied as master/main branch.
+After work complete in sub branch and satisfied then sub branch pull and merge in master/main branch.
+
+Branching & Marging command:
+	-> git branch branch_name (create a branch)
+	-> git branch (List of branches)
+	-> git branch -r (List all remote branches )
+	-> git branch -a (List all local & remote branches) 
+	-> git checkout branch_name (move to a branch)
+	-> git checkout -b branch_name (create and move to a branch) 
+	-> git branch -d branch_name (delete a branch)
+
+merge branches:
+  	-> git checkout branchName
+  	-> git merge branchName
+
+
+Example:
+we create a new branch:
+git branch hello-world-images
+
+Let's confirm that we have created a new branch:
+	-> git branch
+
+Result:
+hello-world-images
+* master //*Means now is active branch.
+We can see the new branch with the name "hello-world-images", but the * beside master specifies that we are currently on that branch.
+
+checkout is the command used to check out a branch. Moving us from the current branch, to the one specified at the end of the command:
+	-> git checkout hello-world-images
+
+After Checkout:
+Switched to branch 'hello-world-images'
+       index.html
+Now we Change index.html or write something.
+
+Now check the status of the current branch:
+	-> git status
+On branch hello-world-images
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+no changes added to commit (use "git add" and/or "git commit -a")
+
+So let's go through what happens here:
+•	There are changes to our index.html, but the file is not staged for commit
+•	I am from marging is not tracked
+So we need to add files to the Staging Environment for this branch:
+	-> git add –all
+Using --all instead of individual filenames will Stage all changed (new, modified, and deleted) files.
+
+Check the status of the branch:
+	-> git status
+On branch hello-world-images
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   index.html
+We are happy with our changes. So we will commit them to the branch:
+	-> git commit -m "Added new text in hello world"
+[hello-world-images 600f04e] Added new text in hello world
+ 1 file changed, 1 insertion(+)
+Now we have a new branch, that is different from the master branch.
+
+Marging:
+our sub-branch hello-world-images has been ready, and so let's merge the master and hello-world-images branches.
+First, we need to checkout the master branch:
+	-> git checkout master
+Switched to branch 'master'
+
+Now we merge the current branch (master) with hello-world-images branch:
+	-> git merge hello-world-images
+Updating a67f05c..e2aed93
+Fast-forward
+ index.html | 2 ++
+ 1 file changed, 2 insertions(+)
+
+As master and hello-world-images are essentially the same now, we can delete hello-world-images, as it is no longer needed:
+git branch -d hello-world-images
+Deleted branch hello-world-images (was dfa79db).
+
+Fast Forward Merge/ 2-way merge:
+https://www.tutorialspoint.com/what-is-a-fast-forward-merge-in-git
+
+3-way Merge:
+https://www.tutorialspoint.com/what-is-a-fast-forward-merge-in-git
+
+Resolve conflict in merge:
+https://www.tutorialspoint.com/what-is-merge-conflict-in-git-how-to-handle-merge-conflicts
+
+

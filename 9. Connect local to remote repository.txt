@@ -1,0 +1,8 @@
+First create a Repository on GitHub:
+Now that you have made a GitHub account, sign in, and create a new Repo from github interface.
+
+Push Local Repository to GitHub:
+Since we have already set up a local Git repo, we are going to push that to GitHub:
+	-> git remote add origin https://github.com/Anamul-h444/testProject.git
+	-> git branch -M main
+	-> git push -u origin main

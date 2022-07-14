@@ -1,0 +1,9 @@
+Git undo theory:
+	-> git log --oneline (For Check commit shortly)
+	-> git show (For check what is changed in commit)
+	-> git show commit-id (For check what is changed in commit by commit id)
+	-> git checkout commit-id (For go any commit by commit id)
+	-> git checkout master (For go Master branch)
+
+Note: by checkout go commit only for check what is happend by no work. Again when come last head type git checkout master.
+If git log then go back terminal by type ->q

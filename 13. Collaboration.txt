@@ -1,0 +1,15 @@
+I am owner.
+I want to add worker in my project.
+Open repository which I want to add worker.
+Settings -> collaborates -> Add People
+
+Worker get a message in his mail and receive. Now he access as owner because from owner
+there is no rules.
+
+Set Rules from owner:
+Settings -> branches -> Add Rule -> Branch name as Master because master is main repo, so other
+branches is access -> Check Require a pull request berore marging etc.
+
+Now worker completed work he create a sub branch and push.
+Then send pull request.
+If owner satisfy he approved otherwise he change request with write error in messtage.

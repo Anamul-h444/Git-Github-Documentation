@@ -1,0 +1,15 @@
+Pull:
+Pull means update local repository from remote repository.
+When working as a team on a project, it is important that everyone stays up to date.
+
+Any time you start working on a project, you should get the most recent changes to your local copy.
+
+With Git, you can do that with pull.
+	-> git pull origin
+
+Clone:
+Clone means copy of a repository from remote to local.
+A clone is a full copy of a repository, including all logging and versions of files.
+
+Move back to the original repository, and click the green "Code" button to get the URL to clone:
+	-> git clone https://github.com/Anamul-h444/testGit.git

@@ -1,0 +1,74 @@
+
+<!--Markdown comment-->	- Comment of Mark down
+
+double space after line	- For create new line.
+
+--- Create Horizontal line.
+
+# ## ### #### - Heading 1 to 6 (write after #)
+
+<p></p> - Write paragraph
+
+_This is italic font_ - write italic format.
+
+--This is bold font-- - write bold format.
+
+~ Thist strikethroug font~ - write line on sentence.
+
+`<h1> I am inline code block </h1>` - For write one line code.
+
+
+```html			For write Multiple line code block.
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hello World!</title>
+<link rel="stylesheet" href="style.css">
+</head>
+```
+ **Note: In multiple line code block first backkit which language write
+ display code block by that language. In this code display as html.
+
+
+1.Item1		- Ordered  list
+2.Item2
+   1. Soap
+   2. Lux
+3.Item 3
+
+-Item1		- unordered  list
+-Item2
+   -Soap
+   -Lux
+-Item 3
+
+-[x] Task1	- Task list
+-[x] Task2
+-[] Task3
+
+https://www.youtube.com	- active link
+
+`https://www.youtube.com` - disable link
+
+[title](link)			- show title and by the click title trigger link.
+[youtube](https://www.youtube.com)
+
+Procedure of use many link:
+[Click here for see video](youtube)
+[Click here for see detail](facebook)
+
+<!--All link is here-->
+[youtube]: https://www.youtube.com
+[facebok]: https://www.facebook.com
+
+![alt name](img src)	- for show image
+<img />	-	for show img by width, height etc.
+
+Copy Emoji from website and pest  - for use emoji
+
+|ser No | Name | Rmk |	- Table
+|---|---|---|
+|1|Anamul Haque|Good|
+
+
+
