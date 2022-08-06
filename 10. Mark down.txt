@@ -66,9 +66,10 @@ Procedure of use many link:
 
 Copy Emoji from website and pest  - for use emoji
 
-|ser No | Name | Rmk |	- Table
-|---|---|---|
-|1|Anamul Haque|Good|
-
+#### Table
+| ser No | Name | Rmk |  	
+| --- | --- | --- |
+| 1 | Anamul Haque | Good |
+Note: Use pipe sign -> 1 space -> content -> 1 space -> last 2 space and --- for underline
 
 
