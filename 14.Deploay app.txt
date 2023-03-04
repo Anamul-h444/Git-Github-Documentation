@@ -1,0 +1,7 @@
+1.Create Repository with README.MD
+2. Add file -> upload file
+3. Settings
+4. Pages
+5. Select branch and save
+6. settings and reload
+7. Again pages and see your link
